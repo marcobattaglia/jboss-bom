@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>org.jboss.bom</groupId>
-        <version>1.0.5-SNAPSHOT</version>
+        <version>1.0.7-SNAPSHOT</version>
         <artifactId>jboss-bom-parent</artifactId>
     </parent>
 
@@ -69,6 +69,37 @@
                 <artifactId>jboss-negotiation-spnego</artifactId>
                 <version>${version.org.jboss.security.negotiation}</version>
                 <scope>provided</scope>
+            </dependency>
+            
+            <!-- PicketLink Dependencies -->
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-core-api</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-core-impl</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-idm-api</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-idm-impl</artifactId>
+                <version>${version.org.picketlink}</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-idm-schema</artifactId>
+                <version>${version.org.picketlink}</version>
             </dependency>
 
         </dependencies>
