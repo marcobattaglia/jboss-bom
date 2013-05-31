@@ -1,4 +1,4 @@
-JBoss Java EE 6 with Drools Expert
+JBoss Java EE 6 with Drools 
 ==========================
 
 This BOM builds on the Java EE full profile BOM, adding Drools.
